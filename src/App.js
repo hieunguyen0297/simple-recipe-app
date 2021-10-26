@@ -16,15 +16,10 @@ function App() {
       
   },[query])
 
-
-  const APP_ID = '0dbd8d85';
-  const APP_KEY = '25c4b35839cbc30ca6d67a6115f6a419';
+  const APP_ID = YOUR_API_ID;
+  const APP_KEY = YOUR_API_KEY;
 
   const reqURL = `https://api.edamam.com/search?q=${query}&app_id=${APP_ID}&app_key=${APP_KEY}&from=0&to=3&calories=591-722&health=alcohol-free`
-
-
-
- 
 
   //get recipe
   const getRecipe = async () => {
